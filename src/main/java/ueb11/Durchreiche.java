@@ -5,7 +5,7 @@ public interface Durchreiche<T> {
 	 * Etwas aus der Durchreiche nehmen.
 	 * @return
 	 */
-	T get();
+	T get() throws InterruptedException;
 
 	/**
 	 * Etwas in die Durchreiche stellen.
